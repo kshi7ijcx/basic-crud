@@ -1,5 +1,6 @@
 import express from 'express'
 import mongoose from 'mongoose'
+import model from './models/products.model.js'
 const app=express()
 
 app.get("/",(req,res)=>{
